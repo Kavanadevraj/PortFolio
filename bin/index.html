@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kavana C D | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Dark/Light Mode Toggle -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    <i class="ri-moon-line"></i>
+  </button>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Kavana</div>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Kavana C D</span></h1>
+      <p>Aspiring Application Developer | AI Enthusiast</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">See My Work</a>
+        <a href="assets/Kavana_Resume.pdf" class="btn secondary-btn" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I am a passionate application developer with expertise in AI and machine learning. With a strong foundation in multiple programming languages and development environments, I create efficient and innovative solutions to complex problems.</p>
+          <p>My goal is to leverage technology to build applications that make a positive impact. I'm particularly interested in the intersection of AI and practical user-centered applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h3>Java</h3>
+          <div class="bar"><div class="progress" style="width: 85%"></div></div>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill">
+          <h3>Python</h3>
+          <div class="bar"><div class="progress" style="width: 80%"></div></div>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="skill">
+          <h3>C / C++</h3>
+          <div class="bar"><div class="progress" style="width: 75%"></div></div>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill">
+          <h3>HTML / CSS</h3>
+          <div class="bar"><div class="progress" style="width: 90%"></div></div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill">
+          <h3>Communication</h3>
+          <div class="bar"><div class="progress" style="width: 70%"></div></div>
+          <span class="skill-percent">70%</span>
+        </div>
+        <div class="skill">
+          <h3>Teamwork</h3>
+          <div class="bar"><div class="progress" style="width: 80%"></div></div>
+          <span class="skill-percent">80%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="images/project1.jpg" alt="Pneumonia Detection" />
+          <div class="overlay">
+            <h3>Pneumonia Detection</h3>
+            <p>Deep Learning-based medical image classification system for identifying pneumonia from chest X-rays.</p>
+            <a href="#" class="btn project-btn">View Project</a>
+          </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="images/project3.jpg" alt="Voting App" />
+          <div class="overlay">
+            <h3>Online Voting App</h3>
+            <p>Secure Java-based voting application with login authentication and interactive sound effects.</p>
+            <a href="#" class="btn project-btn">View Project</a>
+          </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="placeholder-img">
+            <i class="ri-code-box-line"></i>
+          </div>
+          <div class="overlay">
+            <h3>Portfolio Website</h3>
+            <p>Responsive portfolio website built with HTML, CSS, and JavaScript featuring interactive elements.</p>
+            <a href="#" class="btn project-btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">What People Say</h2>
+      <div class="testimonials-container">
+        <div class="testimonial-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="testimonial-content">
+            <i class="ri-double-quotes-l quote-icon"></i>
+            <p>Kavana's work ethic and technical skills are outstanding. Her attention to detail and problem-solving abilities make her an exceptional developer.</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Dr. Rajesh Kumar</h4>
+            <p>Professor, Computer Science</p>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-content">
+            <i class="ri-double-quotes-l quote-icon"></i>
+            <p>A dedicated developer who consistently delivers clean, efficient, and well-documented code. Kavana's enthusiasm for learning new technologies is impressive.</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Priya Sharma</h4>
+            <p>Project Lead</p>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-left" data-aos-delay="300">
+          <div class="testimonial-content">
+            <i class="ri-double-quotes-l quote-icon"></i>
+            <p>Great team player and quick learner. Kavana adapts to new challenges with ease and brings valuable insights to every project.</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Aditya Patel</h4>
+            <p>Senior Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p>Have a project or want to connect? Drop a message!</p>
+
+      <div class="contact-container">
+        <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+          <div class="contact-item">
+            <i class="ri-mail-line"></i>
+            <div>
+              <h3>Email</h3>
+              <p>kavana.cd@example.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="ri-map-pin-line"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Bangalore, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="ri-linkedin-box-fill"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <p>linkedin.com/in/kavanac</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="ri-github-fill"></i>
+            <div>
+              <h3>GitHub</h3>
+              <p>github.com/kavanac</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" data-aos="fade-left" data-aos-delay="200">
+          <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" id="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Kavana CD</div>
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+          <a href="#" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+          <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Kavana C D. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top" aria-label="Back to top">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

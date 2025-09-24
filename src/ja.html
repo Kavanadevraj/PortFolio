@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jayanth & Kavana Logo</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7); /* romantic gradient */
+      margin: 0;
+      font-family: "Segoe Script", cursive;
+    }
+
+    .logo {
+      text-align: center;
+      color: #000;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .logo h1 {
+      font-size: 60px;
+      margin: 5px 0;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .heart {
+      font-size: 70px;
+      color: red;
+      margin: 10px 0;
+      animation: pulse 1.5s infinite;
+      text-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+    }
+
+    .infinity {
+      font-size: 70px;
+      color: #333;
+      margin-top: 20px;
+      text-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    /* Animations */
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <div class="heart">❤</div>
+    <h1>Jayanth</h1>
+    <h1>Kavana</h1>
+    <div class="infinity">∞</div>
+  </div>
+</body>
+</html>
